@@ -15,7 +15,11 @@ The method is based on the hypothesis that there is a benefit to exploring salie
 <p align="center">
 <img src="Attention-block_new.jpg">
 </p>
+
 **Computation of the proposed self-attention and co-attention from the feature maps representing the ROIs and the whole image. The input to the attention layer is the output from the proposed SE with a skip connection layer focusing on the respective ROIs and the whole image.**
+
+![Image](results.jpg)
+**Visual explanation of decision using Gradient-weighted Class Activation Mapping (Grad-CAM) for "Distracted Driver" (a-e), PPMI (f-j) and Standford-40 (k-o) datasets. This figure analyzes how localizations change qualitatively as we perform Grad-CAM with respect to feature maps in _5c-branch2c_ convolution layer of ResNet-50 using the original model (left) as a baseline versus our proposed RAN (right) with ResNet-50 as a base CNN.**
 
 ### Paper and Supplementary Information
 Extended version of the accepted paper in [ArXiv](https://arxiv.org/pdf/2101.06634).
