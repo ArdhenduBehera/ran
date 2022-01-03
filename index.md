@@ -12,7 +12,9 @@ The method is based on the hypothesis that there is a benefit to exploring salie
 ![Image](Overview-new.jpg)
 **Architecture of our RAN. Given an image, we select a set of candidate regions. The image is passed through a base CNN. The output activation of a given region _r_ is computed using specialized Squeeze-and-Excitation layer with skip connection. For each gesture _g_ (head pose example), the most informative region is selected using the proposed attention layer consisting of _self-attention_ and _co-attention_ representing combined attention of regions and the whole image. The softmax operation transforms co-attention-focused activations into probabilities that form the final prediction.**
 
-![Image](Attention-block_new.jpg)
+<p align="center">
+<img src="Attention-block_new.jpg">
+</p>
 **Computation of the proposed self-attention and co-attention from the feature maps representing the ROIs and the whole image. The input to the attention layer is the output from the proposed SE with a skip connection layer focusing on the respective ROIs and the whole image.**
 
 ### Paper and Supplementary Information
