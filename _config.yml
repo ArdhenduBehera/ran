@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: Context-aware Attentional Pooling (CAP) for Fine-grained Visual Classification
-description: The Thirty-Fifth AAAI Conference on Artificial Intelligence 2021
+title: Regional Attention Network (RAN) for Head Pose and Fine-grained Gesture Recognition
+description: IEEE Transactions on Affective Computing 2020
 github:
   is_project_page: false
